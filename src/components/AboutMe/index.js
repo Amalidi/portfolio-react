@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutMe.css";
 
-const index = () => {
-  return <div>index</div>;
+const AboutMe = () => {
+  return <div>AboutMe</div>;
 };
 
-export default index;
+export default AboutMe;
