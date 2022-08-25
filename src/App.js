@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <main className="main">
       <Header />
       <Navbar />
       <AboutMe />
@@ -20,7 +20,7 @@ const App = () => {
       <Projects />
       <ContactForm />
       <Footer />
-    </>
+    </main>
   );
 };
 
