@@ -1,0 +1,146 @@
+header {
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
+.header__container {
+  margin-top: 10%;
+  text-align: center;
+  /* height: 100%; */
+  position: relative;
+}
+
+.header_text {
+  text-align: center;
+  margin-top: 15%;
+  padding: 0;
+  margin-bottom: 40%;
+}
+
+.header_text h3 {
+  font-weight: 400;
+  line-height: 60px;
+  font-size: 30px;
+  word-spacing: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.header_text h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.header_text h4 {
+  color: #64ffda;
+  font-size: 80px;
+  line-height: 95px;
+  margin: 0;
+  padding: 0;
+}
+
+.cta {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* ==================== Floating Icons and mail ==================== */
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: fixed;
+  font-size: 1.27rem;
+  left: 7rem;
+  bottom: 0rem;
+}
+
+.header_socials::after {
+  content: "";
+  width: 1px;
+  height: 5rem;
+  background: var(--color-primary);
+}
+
+.individual_socials:hover,
+.individual_socials:focus {
+  transform: translateY(-4px);
+  color: #64ffda;
+}
+
+.mail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: fixed;
+  font-size: 1rem;
+  right: 4.5rem;
+  bottom: 0rem;
+}
+
+.mail-container:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background: var(--color-primary);
+}
+
+.mail-container a {
+  margin: 20px auto;
+  padding: 10px;
+  font-family: "SFmono";
+  line-height: 5rem;
+  letter-spacing: 0.15em;
+  writing-mode: vertical-rl;
+}
+
+.mail-container a:hover,
+.mail-container a:focus {
+  color: #64ffda;
+  transform: translateY(-5px);
+}
+
+/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 80vh;
+  }
+
+  .header_text {
+    margin-top: 20%;
+  }
+
+  .header_text h1 {
+    font-size: 60px;
+  }
+
+  .header_text span {
+    font-size: 3rem;
+    line-height: normal;
+  }
+
+  .header_socials,
+  .mail-container {
+    display: none;
+  }
+}
+
+/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .header_socials,
+  .mail-container {
+    display: none;
+  }
+}
