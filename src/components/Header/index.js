@@ -15,8 +15,6 @@ const Header = () => {
 
           <TypingEffect />
 
-          {/* <span> A creative problem solver.</span> */}
-
           <p></p>
           <CTA />
         </div>
