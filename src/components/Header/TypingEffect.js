@@ -4,10 +4,14 @@ import Typewriter from "typewriter-effect";
 
 const TextPrinter = (props) => {
   return (
-    <div className="text-printer">
+    <div className="type_writer">
       <Typewriter
         options={{
-          strings: ["FULL-STACK DEVELOPER", "SOFTWARE ENGINEER", "", "DANCER"],
+          strings: [
+            "FULL-STACK DEVELOPER",
+            "SOFTWARE ENGINEER",
+            "MEDICAL PHYSIOLOGIST",
+          ],
           autoStart: true,
           loop: true,
         }}
