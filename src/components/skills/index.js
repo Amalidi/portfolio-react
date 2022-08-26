@@ -91,7 +91,28 @@ const skills = () => {
               </div>
             </article>
 
-  
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>ExpressJs</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>Postman</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>Heroku</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
           </div>
         </div>
