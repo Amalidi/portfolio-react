@@ -1,8 +1,71 @@
 import React from "react";
 import "./skills.css";
+// import { BsPatchCheck } from "react-icons/bs";
+// import CheckCircleOutlineOutlinedIcon from "@material-ui/icons/CheckCircleOutlineOutlined";
+import VerifiedOutlinedIcon from "@mui/icons-material/VerifiedOutlined";
 
 const skills = () => {
-  return <div>skills</div>;
+  return (
+    <section id="experience">
+      <h5>Skills I have</h5>
+      <h2>My Experience</h2>
+
+      <div className="container experience_container">
+        <div className="experience_frontend">
+          <h3>Frontend Development</h3>
+          <div className="experience_content">
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>HTML5</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>Bootstrap</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>JQuery</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default skills;
