@@ -1,7 +1,5 @@
 import React from "react";
 import "./skills.css";
-// import { BsPatchCheck } from "react-icons/bs";
-// import CheckCircleOutlineOutlinedIcon from "@material-ui/icons/CheckCircleOutlineOutlined";
 import VerifiedOutlinedIcon from "@mui/icons-material/VerifiedOutlined";
 
 const skills = () => {
