@@ -52,7 +52,7 @@ header {
   justify-content: center;
 }
 
-/* ==================== Floating Icons and mail ==================== */
+/* === Floating Icons and mail === */
 .header_socials {
   display: flex;
   flex-direction: column;
@@ -110,7 +110,7 @@ header {
   transform: translateY(-5px);
 }
 
-/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+/* === MEDIA QUERIES (Medium DEVICES) ==== */
 @media screen and (max-width: 1024px) {
   header {
     height: 80vh;
@@ -135,7 +135,7 @@ header {
   }
 }
 
-/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+/* ==== MEDIA QUERIES (Small DEVICES) ==== */
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;

@@ -15,7 +15,7 @@
 .githubRepo_item:hover {
   background-color: var(--color-primary-variant);
   background: transparent;
-  border: 1px solid #64ffda;
+  border: 1px solid #fff;
 }
 
 .gitProject_item_image img {
@@ -35,7 +35,7 @@
   margin-bottom: 1rem;
 }
 
-/* ==================== MEDIA QUERIES (Medium DEVICES) ==================== */
+/* ==== MEDIA QUERIES (Medium DEVICES) ==== */
 @media screen and (max-width: 1024px) {
   .githubRepo_container {
     grid-template-columns: 1fr 1fr;
@@ -43,7 +43,7 @@
   }
 }
 
-/* ==================== MEDIA QUERIES (Small DEVICES) ==================== */
+/* ==== MEDIA QUERIES (Small DEVICES) ==== */
 @media screen and (max-width: 600px) {
   .githubRepo_container {
     grid-template-columns: 1fr;
