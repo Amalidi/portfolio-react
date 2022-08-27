@@ -3,12 +3,7 @@ import emailjs from "@emailjs/browser";
 import "./contact.css";
 
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-
-// import { HiOutlineMail } from "react-icons/hi";
-// import { FaTelegramPlane } from "react-icons/fa";
-// import { BsSnapchat } from "react-icons/bs";
 
 const Contact = () => {
   const Expire = (props) => {
@@ -59,20 +54,15 @@ const Contact = () => {
           <article className="contact_option">
             <EmailOutlinedIcon className="contact_icons" />
             <h4>Email</h4>
-            <h5>nishu@duck.com</h5>
-            <a href={"mailto:nishu@duck.com"} target="_blank" rel="noreferrer">
+            <h5>idr.a1813@gmail.com</h5>
+            <a
+              href={"mailto:idr.a1813@gmail.com"}
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
-
-          {/* <article className="contact_option">
-            <LocalPhoneOutlinedIcon className="contact_icons" />
-            <h4>Phone</h4>
-            <h5>07459847876</h5>
-            <a href={"https://t.me/zzcwc"} target="_blank" rel="noreferrer">
-              Send a message
-            </a>
-          </article> */}
 
           <article className="contact_option">
             <LinkedInIcon className="contact_icons" />
@@ -87,7 +77,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form ef={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea
