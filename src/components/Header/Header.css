@@ -83,7 +83,7 @@ header {
   align-items: center;
   gap: 1rem;
   position: fixed;
-  font-size: 1rem;
+  font-size: 15px;
   right: 4.5rem;
   bottom: 0rem;
 }
@@ -99,7 +99,6 @@ header {
 .mail-container a {
   margin: 20px auto;
   padding: 10px;
-  font-family: "SFmono";
   line-height: 5rem;
   letter-spacing: 0.15em;
   writing-mode: vertical-rl;
