@@ -100,8 +100,9 @@ const Nav = ({ inView }) => {
 
           <span>
             <a
-              href={() => false}
-              onClick={() => alert("Coming Soon...")}
+              href="https://drive.google.com/file/d/1EifetsxBwc_tTMR1oujo9q6jsBgpHztU/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="nav_btn"
             >
               Resume
