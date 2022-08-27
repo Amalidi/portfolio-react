@@ -1,17 +1,17 @@
-import img1 from "../../assets/code-quiz.png";
+import img1 from "../../assets/weather-dashboards.png";
 import img2 from "../../assets/day-planner.png";
 import img3 from "../../assets/Horiseon.png";
 import img4 from "../../assets/password-generator.png";
 import img5 from "../../assets/Holiday-Project.png";
-import img6 from "../../assets/weather-dashboards.png";
+import img6 from "../../assets/code-quiz.png";
 
 export const data = [
   {
     id: 1,
     image: img1,
-    title: "CODE QUIZE",
-    github: "https://github.com/losier/v4",
-    demo: "http://aarabnishchal.herokuapp.com/",
+    title: "WEATHER DASHBOARD",
+    github: "https://github.com/Amalidi/Weather-Dashboard",
+    demo: "https://amalidi.github.io/Weather-Dashboard/",
   },
   {
     id: 2,
@@ -44,8 +44,8 @@ export const data = [
   {
     id: 6,
     image: img6,
-    title: "WEATHER DASHBOARD",
-    github: "https://github.com/Amalidi/Weather-Dashboard",
-    demo: "https://amalidi.github.io/Weather-Dashboard/",
+    title: "CODE QUIZE",
+    github: "https://github.com/losier/v4",
+    demo: "http://aarabnishchal.herokuapp.com/",
   },
 ];
