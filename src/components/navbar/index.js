@@ -1,7 +1,3 @@
-// import React from "react";
-// // import "./navbar.css";
-// import styles from "./navbar.css";
-
 import React, { useState, useEffect } from "react";
 
 import "./navbar.css";

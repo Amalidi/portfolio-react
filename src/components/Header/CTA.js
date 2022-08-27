@@ -4,9 +4,10 @@ const CTA = () => {
   return (
     <div className="cta">
       <a
-        href={() => false}
-        onClick={() => alert("Coming Soon...")}
+        href="https://drive.google.com/file/d/1EifetsxBwc_tTMR1oujo9q6jsBgpHztU/view?usp=sharing"
+        target="_blank"
         className="btn"
+        rel="noopener noreferrer"
       >
         Download CV
       </a>
