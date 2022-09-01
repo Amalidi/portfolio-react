@@ -7,7 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/skills";
 import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
       <Skills />
       <Projects />
       <ContactForm />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 };
