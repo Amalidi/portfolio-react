@@ -50,7 +50,7 @@ const Nav = ({ inView }) => {
         <div className="menu">
           <li>
             <a
-              href={"/#"}
+              href={"#Header"}
               onClick={() => setActiveNav("#")}
               className={activeNav === "#" ? "active" : ""}
             >

@@ -15,7 +15,7 @@ const Footer = () => {
 
         <ul className="permalinks">
           <li>
-            <a href="/#">Home</a>
+            <a href="#Header">Home</a>
           </li>
           <li>
             <a href="#AboutMe">About</a>
@@ -52,7 +52,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="rocket_container">
-          <a href="/#" className="rocket">
+          <a href="Header" className="rocket">
             <RocketOutlinedIcon className="rocket-img" />
           </a>
           <p className="rocket_p">Beam me up !!!</p>

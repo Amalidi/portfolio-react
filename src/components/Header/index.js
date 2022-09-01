@@ -7,7 +7,7 @@ import CTA from "./CTA";
 
 const Header = () => {
   return (
-    <header>
+    <header id="Header">
       <div className="container header_container">
         <div className="header_text">
           <h3>HI THERE 👋, I'M</h3>
