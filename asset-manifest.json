@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.a1afb590.css",
-    "main.js": "/portfolio-react/static/js/main.5eb11b55.js",
+    "main.js": "/portfolio-react/static/js/main.c47772fd.js",
+    "static/media/Eco-bike.png": "/portfolio-react/static/media/Eco-bike.1e44d4f4ab488c3567cc.png",
     "static/media/Holiday-Project.png": "/portfolio-react/static/media/Holiday-Project.7815bd8709934e7f8de0.png",
-    "static/media/Horiseon.png": "/portfolio-react/static/media/Horiseon.d9e066ae4b2ceece2648.png",
+    "static/media/book-search.png": "/portfolio-react/static/media/book-search.2dbdd28858c00374bb23.png",
     "static/media/weather-dashboards.png": "/portfolio-react/static/media/weather-dashboards.68101f3794fafa599a70.png",
-    "static/media/code-quiz.png": "/portfolio-react/static/media/code-quiz.b35e465d612eb5b85695.png",
-    "static/media/password-generator.png": "/portfolio-react/static/media/password-generator.faeda720bdb11d23896b.png",
+    "static/media/quiz.png": "/portfolio-react/static/media/quiz.5c97760de408a2b4e851.png",
     "static/media/day-planner.png": "/portfolio-react/static/media/day-planner.53fcbe137de7e990a8c1.png",
     "static/media/Myself.png": "/portfolio-react/static/media/Myself.49211336a160e192f67e.png",
     "index.html": "/portfolio-react/index.html",
     "main.a1afb590.css.map": "/portfolio-react/static/css/main.a1afb590.css.map",
-    "main.5eb11b55.js.map": "/portfolio-react/static/js/main.5eb11b55.js.map"
+    "main.c47772fd.js.map": "/portfolio-react/static/js/main.c47772fd.js.map"
   },
   "entrypoints": [
     "static/css/main.a1afb590.css",
-    "static/js/main.5eb11b55.js"
+    "static/js/main.c47772fd.js"
   ]
 }
