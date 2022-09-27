@@ -23,7 +23,7 @@ const skills = () => {
             <article className="experience_details">
               <VerifiedOutlinedIcon className="experience_details-icons" />
               <div>
-                <h4>CSS</h4>
+                <h4>CSS3</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -40,6 +40,38 @@ const skills = () => {
               <VerifiedOutlinedIcon className="experience_details-icons" />
               <div>
                 <h4>Bootstrap</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>MaterialUI</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>Bulma</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>Typewriter</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>Handlebars</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -109,6 +141,38 @@ const skills = () => {
               <VerifiedOutlinedIcon className="experience_details-icons" />
               <div>
                 <h4>Heroku</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>MySQL</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>GraphQL</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>MERN</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <VerifiedOutlinedIcon className="experience_details-icons" />
+              <div>
+                <h4>Sequelize</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
