@@ -52,7 +52,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="rocket_container">
-          <a href="Header" className="rocket">
+          <a href="#Header" className="rocket">
             <RocketOutlinedIcon className="rocket-img" />
           </a>
           <p className="rocket_p">Beam me up !!!</p>
