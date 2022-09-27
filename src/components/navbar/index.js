@@ -61,8 +61,8 @@ const Nav = ({ inView }) => {
           <li>
             <a
               href={"#AboutMe"}
-              onClick={() => setActiveNav("#about")}
-              className={activeNav === "#about" ? "active" : ""}
+              onClick={() => setActiveNav("#AboutMe")}
+              className={activeNav === "#AboutMe" ? "active" : ""}
             >
               About
             </a>
