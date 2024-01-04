@@ -20,7 +20,7 @@ const AboutMe = () => {
             <article className="about__card">
               <MilitaryTechOutlinedIcon className="about__icon" />
               <h5>Experience</h5>
-              <small>6 months</small>
+              <small>2 years</small>
             </article>
             <article className="about__card">
               <FolderCopyOutlinedIcon className="about__icon" />
